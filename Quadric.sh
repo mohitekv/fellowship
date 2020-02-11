@@ -6,9 +6,8 @@ read c
 echo Quadratic eqyation is $a XX+ $b X+ $c.
 
 d=$((($b * $b) - (4 * $a * $c)))
-y=$(echo " sqrt(2)" | bc -l)
+echo $d
 y1=$((2 * $a))
 #echo $(((-$b+$y)/$y))
-echo $y
 #echo "$(((-0.50+5)/2))"
- "$(1.2/3" | bc -l)
+ #"$(1.2/3" | bc -l)
